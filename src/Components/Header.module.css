@@ -1,0 +1,17 @@
+.headre, .footere{
+    width: flex;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.headre{
+    top: 0;
+}
+.footere{
+    bottom: 0;
+}
+.container{
+    width: auto;
+    margin: 0 auto; 
+}
