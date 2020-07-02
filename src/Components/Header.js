@@ -12,10 +12,10 @@ class Header extends Component {
             <div className={styles.container}>
               <nav>
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
+                <a href="#">About Us</a>
+                <a href="#">Product Catalogue</a>
+                <a href="#">The Squad</a>
+                <a href="#">Get in Touch</a>
               </nav>
             </div>
           </div>

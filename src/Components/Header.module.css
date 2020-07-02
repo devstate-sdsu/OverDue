@@ -1,17 +1,19 @@
 .headre, .footere{
-    width: flex;
+    width: stretch;
     position: fixed;        
-    background: #333;
     padding: 10px 0;
     color: #fff;
+    text-align: -webkit-center;
 }
 .headre{
-    top: 0;
+    top: 150px;
+    background: #FFD100;
 }
 .footere{
     bottom: 0;
+    background: #0033A0;
 }
 .container{
-    width: auto;
-    margin: 0 auto; 
+    width: stretch;
+    margin: 0; 
 }
