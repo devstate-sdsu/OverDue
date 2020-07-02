@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       
-     // <div className= "Header">
+      <div className= "Header">
         <body>
           <div className={styles.headre}>
             <div className={styles.container}>
@@ -26,7 +26,7 @@ class Header extends Component {
             <div className={styles.container}>Copyright; 2020 DevState</div>        
           </div>
         </body>
-     // </div>
+      </div>
 
     );
   }

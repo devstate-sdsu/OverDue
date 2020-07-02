@@ -4,7 +4,7 @@ import '../Components/FirstComp.css';
 class FirstComp extends Component {
     render() {
         return (
-            <div>
+            <div className = "FirstComp">
                 <body>
                     Whats up boi
                 </body>
