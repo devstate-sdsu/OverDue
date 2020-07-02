@@ -1,16 +1,17 @@
 .headre, .footere{
     width: stretch;
     position: fixed;        
-    padding: 10px 0;
     color: #fff;
     text-align: -webkit-center;
 }
 .headre{
-    top: 150px;
+    top: 0;
+    padding: 35px 0;
     background: #FFD100;
 }
 .footere{
     bottom: 0;
+    padding: 35px 50px;
     background: #0033A0;
 }
 .container{

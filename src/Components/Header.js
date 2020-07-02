@@ -29,9 +29,6 @@ return (
           <h1>Welcome to</h1>
 
           <main>
-            <input type="checkbox" id="theme">
-              </input>
-            <label for="theme">Another One?</label>
             <a href="http://localhost:3000/" target="_blank" class="btn-DevState">
               <div class="btn-DevState-pieces"></div>
               <span>DevState</span>
