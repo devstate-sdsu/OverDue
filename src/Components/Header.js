@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import '../Components/Header.css';
 import styles from '../Components/Header.module.css';
 
+
 class Header extends Component {
   render() {
-    return (
+  
+return (
+
+      
       
       <div className= "Header">
         <body>
@@ -19,17 +23,26 @@ class Header extends Component {
               </nav>
             </div>
           </div>
-          <div className={styles.container}>
-            <p>Welcome to DevState</p>
-          </div>    
           <div className={styles.footere}>
             <div className={styles.container}>Copyright; 2020 DevState</div>        
           </div>
+          <h1>Welcome to</h1>
+
+          <main>
+            <input type="checkbox" id="theme">
+              </input>
+            <label for="theme">Another One?</label>
+            <a href="http://localhost:3000/" target="_blank" class="btn-DevState">
+              <div class="btn-DevState-pieces"></div>
+              <span>DevState</span>
+            </a>
+          </main>
         </body>
       </div>
 
     );
   }
 }
+          
 
 export default Header ;
